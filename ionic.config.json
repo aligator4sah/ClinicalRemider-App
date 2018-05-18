@@ -1,0 +1,8 @@
+{
+  "name": "hygieia",
+  "app_id": "2a2674a3",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
