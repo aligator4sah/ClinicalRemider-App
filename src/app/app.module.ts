@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {Login} from "../pages/login/login";
 import {Details, ReminderList} from "../pages/reminderList/reminderList";
+import {ReminderService} from "../service/reminder.service";
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import {Details, ReminderList} from "../pages/reminderList/reminderList";
   providers: [
     StatusBar,
     SplashScreen,
+    ReminderService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
