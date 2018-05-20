@@ -7,7 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {Login} from "../pages/login/login";
-import {ReminderList} from "../pages/reminderList/reminderList";
+import {Details, ReminderList} from "../pages/reminderList/reminderList";
 
 @NgModule({
   declarations: [
@@ -15,6 +15,7 @@ import {ReminderList} from "../pages/reminderList/reminderList";
     HomePage,
     Login,
     ReminderList,
+    Details,
   ],
   imports: [
     BrowserModule,
@@ -26,6 +27,7 @@ import {ReminderList} from "../pages/reminderList/reminderList";
     HomePage,
     Login,
     ReminderList,
+    Details,
   ],
   providers: [
     StatusBar,

@@ -11,18 +11,14 @@
     </ion-list-header>
 
     <ion-item-sliding>
-      <ion-item>
+      <ion-item (click)="openModal({charNum : 0})">
         <ion-avatar item-start>
-          <ion-icon name="alarm"></ion-icon>
+          <ion-icon name="alarm" color="default"></ion-icon>
         </ion-avatar>
         <h2>Diabetes control</h2>
         <p>3 pills should be taken at 12:10 pm.</p>
       </ion-item>
       <ion-item-options>
-        <button ion-button color="light" icon-start>
-          <ion-icon name="ios-more"></ion-icon>
-          More
-        </button>
         <button ion-button color="primary" icon-start>
           <ion-icon name="text"></ion-icon>
           Text
@@ -35,7 +31,7 @@
     </ion-item-sliding>
 
     <ion-item-sliding>
-      <ion-item>
+      <ion-item (click)="openModal({charNum : 1})">
         <ion-avatar item-start>
           <ion-icon name="alarm"></ion-icon>
         </ion-avatar>
@@ -43,10 +39,6 @@
         <p>3 pills should be taken at 12:10 pm.</p>
       </ion-item>
       <ion-item-options>
-        <button ion-button color="light" icon-start>
-          <ion-icon name="ios-more"></ion-icon>
-          More
-        </button>
         <button ion-button color="primary" icon-start>
           <ion-icon name="text"></ion-icon>
           Text
@@ -59,7 +51,7 @@
     </ion-item-sliding>
 
     <ion-item-sliding>
-      <ion-item>
+      <ion-item (click)="openModal({charNum : 2})">
         <ion-avatar item-start>
           <ion-icon name="alarm"></ion-icon>
         </ion-avatar>
@@ -67,10 +59,6 @@
         <p>3 pills should be taken at 12:10 pm.</p>
       </ion-item>
       <ion-item-options>
-        <button ion-button color="light" icon-start>
-          <ion-icon name="ios-more"></ion-icon>
-          More
-        </button>
         <button ion-button color="primary" icon-start>
           <ion-icon name="text"></ion-icon>
           Text
